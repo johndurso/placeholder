@@ -14,6 +14,7 @@ h1 {
 
 h2 {
     font-size: 24px;
+    padding: 0 20px;
 }
 
 main {
@@ -32,8 +33,7 @@ main {
 }
 
 .wave img {
-    width: 100%;
-    max-width: 300px;
+    width: 250px;
     padding: 50px 0;
 }
 
@@ -81,4 +81,13 @@ span.orange:hover a {
 .info {
     font-size: 20px;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 822px) {
+    main {
+        padding: 25px 50px;
+    }
+    .wave img {
+        padding: 25px 0;
+    }
 }

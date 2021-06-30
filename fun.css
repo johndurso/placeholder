@@ -78,9 +78,10 @@ span.orange:hover a {
     color: #fff;
 }
 
+.portfolio,
 .info {
+    padding: 40px;
     font-size: 20px;
-    margin-top: 50px;
 }
 
 @media screen and (max-width: 822px) {
